@@ -1,0 +1,167 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: rgb(191, 34, 195);
+	background: linear-gradient(0deg, rgba(191, 34, 195, 1) 0%, rgba(253, 45, 45, 1) 100%);
+	transition: all 0.2s ease-in-out;
+}
+
+.header {
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	height: 4em;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img {
+	height: 40px;
+	margin-left: 2em;
+}
+
+li {
+	display: flex;
+	margin-right: 1em;
+}
+
+.content {
+	width: 100%;
+	margin: 0;
+	text-align-last: center;
+	margin-top: 20em;
+	clip-path: circle(100%);
+	transition: clip-path 0.5s ease-in-out;
+}
+
+div#content2 {
+	justify-content: center;
+	background-color: white;
+	margin: auto;
+	border: solid 2em white;
+	width: 40%;
+	border-radius: 2em;
+	margin-top: 15em;
+	marigin: solid 2em white !important;
+	display: none;
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.section {
+	display: flex;
+	margin-bottom: -2em !important;
+	justify-content: center;
+}
+
+p#page1 {
+	background-color: #f32b44;
+	text-align: center;
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	color: white;
+}
+
+p#page2 {
+	background-color: #ffffff;
+	text-align: center;
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	color: black;
+	margin-left: 1em;
+}
+
+#firstsection {
+	margin-top: 2em;
+	text-align: center;
+	display: block;
+	flex-direction: column;
+}
+
+#secondsection {
+	margin-top: 2em;
+	text-align: center;
+	display: none;
+	flex-direction: column;
+}
+
+.upload {
+	margin-top: 4.5em;
+}
+
+h1 {
+	font-size: 7rem;
+	color: black;
+	text-align: center;
+	font-weight: 900;
+}
+
+.navigation {
+	text-align: center;
+}
+
+a {
+	font-size: 3em;
+	background-color: #000000;
+	color: #e8295f;
+	text-decoration: none !important;
+	border-radius: 30em;
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	font-weight: 600;
+	transition: all 0.3s ease-in-out;
+}
+
+a#goback {
+	background-color: none !important;
+	background: none;
+	padding: 0;
+	text-align: center;
+	font-size: x-large;
+	color: #646262;
+	transition: none;
+}
+
+a#goback:hover {
+	color: #4e4c4c;
+}
+
+.form-group {
+	margin-bottom: 25px;
+}
+
+a#go {
+	background: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	margin-left: 1em;
+	font-size: x-large;
+	.
+	transition: none;
+}
+
+a#go:hover {
+	color: #a80936;
+}
+
+a:hover {
+	color: white;
+}
+
+p {
+	color: black;
+	font-size: 2em;
+	margin-bottom: 2em;
+}

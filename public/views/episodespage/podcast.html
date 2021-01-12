@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="podcast.css">
+    <title>Podcaster</title>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-light bg-light" id="nav">
+  <div class="navtoda">
+  <div class="logo"></div>
+  <a class="navbar-brand" href="#">
+    <img src="" width="200" height="200" class="d-inline-block align-top" id="podcastimage" alt=""></a>
+  <div class="navbarcontent">
+  <h4>Episódio de podcast</h4>
+  <h1 id="podcasttitle"></h1>
+  <h2 id="podcastauthor"> </h2>
+  </div>
+  </div>
+</nav>
+</header>
+<div class="content" id="content">
+  <div id="actions">
+    <div id="time-data">
+    <p id="dateep"></p><p id="lenghtep"></p>
+    </div>
+    <div id="playoptions">
+    <div class="gg-play-button-o" id="hoverpbutton" onclick="listenPodcast(this.parentElement)"></div>
+    <div class="dropdown">
+  <p class="dropbtn" id="poptions">...</p>
+  <div class="dropdown-content" id="ddmenu">
+    <a href="#" onclick="fallbackCopyTextToClipboard()">Copiar link</a>
+    <a href="#" onclick="openInNewTab()">Baixar episódio</a>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="description">
+    <p id="dtitle">Descrição do episódio</p>
+    <p id="dtext"></p>
+  </div>
+</div>
+<div class="commnts" id="commnts">
+  <div class="newcomment">
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Mostre o que você pensa :)</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" id="btnsend" onclick="sendComment()">Enviar</button>
+  </div>
+</div>
+<p id="endofpage">Uau, você viu tudo!</p>
+</body>
+</html>
+<script src="moment-with-locales.js"></script>
+<script src="podcast.js"></script>
